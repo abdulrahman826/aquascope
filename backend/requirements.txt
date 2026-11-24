@@ -1,0 +1,12 @@
+epyt-flow==0.17.4
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+numpy
+pandas
+scipy
+networkx
+scikit-learn
+joblib
+pytest
+httpx

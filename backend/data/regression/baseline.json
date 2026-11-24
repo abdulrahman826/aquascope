@@ -1,0 +1,21 @@
+{
+  "existing_tests": {
+    "returncode": 0,
+    "summary": "49 passed in 7.00s"
+  },
+  "artifact_md5": {
+    "dataset.csv": "b378dc4d41a9f7cdd708fee7939dc23d",
+    "detector.json": "fab55f2a3e372128ddae7f41554dbd08",
+    "evaluation.json": "387ba7c73565f8ac439d93b5c6216640",
+    "model_meta.json": "4b463325c44944b0c247b8f9400df4a4",
+    "models.joblib": "d73df24e3599eec1a59fb54661cd026a",
+    "physics_params.json": "6687ed64f76f95ab21753b2fb4bb3787",
+    "selection.json": "705c685309f9f8b16f0ee2436f5071e3"
+  },
+  "dataset_regenerated_md5": "b378dc4d41a9f7cdd708fee7939dc23d",
+  "evaluation_canonical_md5_stored": "f52031872079dd17fca13d71e8500aed",
+  "evaluation_canonical_md5_reproduced": "f52031872079dd17fca13d71e8500aed",
+  "detector_reproduced_identical": true,
+  "selection_reproduced_identical": true,
+  "reproduced_ok": true
+}

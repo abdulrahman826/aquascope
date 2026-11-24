@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #070d1a;
+  --color-panel: #0d1526;
+  --color-line: #1c2a45;
+  --color-fg: #dbe5f5;
+  --color-dim: #7f8fab;
+  --color-accent: #22d3ee;
+  --color-blue: #3b82f6;
+  --color-ok: #34d399;
+  --color-warn: #fbbf24;
+  --color-bad: #f87171;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-fg);
+}
+
+.recharts-cartesian-axis-tick text { fill: #7f8fab; font-size: 11px; }
+.recharts-legend-item-text { font-size: 11px; }
+
+@keyframes ping-ring { 0% { r: 9; opacity: 0.9; } 100% { r: 20; opacity: 0; } }
+.target-ring { animation: ping-ring 1.6s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) { .target-ring { animation: none; } }

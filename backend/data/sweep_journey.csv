@@ -1,0 +1,95 @@
+confirm_class,confirm_loc,confirm_status,constraint_miss,diag_matched,errors,event_class,leak_stopped,location,measure_resolved,measure_warning,mismatch,pressure_noise,rec_kind,rec_node,rec_target,seed,severity,sid,status,top,top_locs,top_p,true_location,verify_applicable
+incipient_leak,121,CONFIRMED_BY_INVESTIGATION,False,True,,abrupt_leak,True,121,Abrupt pipe leak / Incipient (growing) leak at pipe 121,False,0.05,0.05,isolate_pipe,32,121,108,0.5,abrupt_leak-5626327110,AMBIGUOUS_DIAGNOSIS,incipient_leak,31 121 122,0.6,121,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,,,,0.0,0.05,restore_pump,,9,5000,0.6,pump_disturbance-2c9dc94c15,CONFIDENT,pump_disturbance,9,1.0,9,True
+sensor_bias,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,22,,,0.05,0.05,none,,,5002,0.6,sensor_bias-2b6423ac86,CONFIDENT,sensor_bias,22 11 13,0.993,22,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.05,0.05,none,,,5000,0.6,normal-afaf3e01de,CONFIDENT,normal,,0.939,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.0,0.05,none,,,5000,0.6,normal-996f81ba35,CONFIDENT,normal,,0.998,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.0,0.05,none,,,5001,0.6,normal-055f5e714b,CONFIDENT,normal,,1.0,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.0,0.05,none,,,5002,0.6,normal-a676d42a68,CONFIDENT,normal,,0.999,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.05,0.05,none,,,5000,0.6,normal-afaf3e01de,CONFIDENT,normal,,0.939,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.05,0.05,none,,,5001,0.6,normal-a38231d785,CONFIDENT,normal,,0.997,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.05,0.05,none,,,5002,0.6,normal-684d68d9e4,CONFIDENT,normal,,0.92,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.15,0.05,none,,,5000,0.6,normal-0cd6f80d11,CONFIDENT,normal,,0.885,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.15,0.05,none,,,5001,0.6,normal-605b2e49e9,CONFIDENT,normal,,0.999,,True
+normal,,CONFIDENT_BUT_UNVERIFIED,False,,,normal,,,,,0.15,0.05,none,,,5002,0.6,normal-2f107476fc,CONFIDENT,normal,,0.99,,True
+abrupt_leak,10,CONFIDENT_BUT_UNVERIFIED,False,True,,abrupt_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.0,0.05,investigate_first,,,5000,0.6,abrupt_leak-b8d3975ec4,CONFIDENT,abrupt_leak,10 11 111,0.955,10,True
+abrupt_leak,11,CONFIDENT_BUT_UNVERIFIED,False,True,,abrupt_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.0,0.05,investigate_first,,,5001,0.6,abrupt_leak-4dec25834a,CONFIDENT,abrupt_leak,11 111 21,0.933,11,True
+,,INSUFFICIENT_EVIDENCE,False,,,abrupt_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 12,False,0.0,0.05,investigate_first,23,,5002,0.6,abrupt_leak-1a2fd39c04,AMBIGUOUS_DIAGNOSIS,incipient_leak,12 113 22,0.634,12,True
+abrupt_leak,10,CONFIDENT_BUT_UNVERIFIED,False,True,,abrupt_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.05,0.05,investigate_first,,,5000,0.6,abrupt_leak-9f38aaecfb,CONFIDENT,abrupt_leak,10 11 111,0.956,10,True
+abrupt_leak,11,CONFIDENT_BUT_UNVERIFIED,False,True,,abrupt_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.05,0.05,investigate_first,,,5001,0.6,abrupt_leak-f94cf86366,CONFIDENT,abrupt_leak,11 111 10,0.913,11,True
+,,INSUFFICIENT_EVIDENCE,False,,,abrupt_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 12,False,0.05,0.05,investigate_first,23,,5002,0.6,abrupt_leak-4da19749bb,AMBIGUOUS_DIAGNOSIS,incipient_leak,12 113 22,0.635,12,True
+abrupt_leak,10,CONFIDENT_BUT_UNVERIFIED,False,True,,abrupt_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.15,0.05,investigate_first,,,5000,0.6,abrupt_leak-5a003d6010,CONFIDENT,abrupt_leak,10 11 111,0.966,10,True
+,,INSUFFICIENT_EVIDENCE,False,,,abrupt_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.15,0.05,investigate_first,,,5001,0.6,abrupt_leak-e61e69471d,AMBIGUOUS_DIAGNOSIS,abrupt_leak,11 10 111,0.752,11,True
+,,INSUFFICIENT_EVIDENCE,False,,,abrupt_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 12,False,0.15,0.05,investigate_first,23,,5002,0.6,abrupt_leak-cabf75f13d,AMBIGUOUS_DIAGNOSIS,incipient_leak,12 113 22,0.727,12,True
+abrupt_leak,10,CONFIDENT_BUT_UNVERIFIED,False,True,,incipient_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.0,0.05,investigate_first,,,5000,0.6,incipient_leak-b4dd10b955,CONFIDENT,abrupt_leak,10 11 111,0.837,10,True
+incipient_leak,11,CONFIDENT_BUT_UNVERIFIED,False,True,,incipient_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.0,0.05,investigate_first,,,5001,0.6,incipient_leak-6be8126c5e,CONFIDENT,incipient_leak,11 111 10,0.991,11,True
+incipient_leak,113,CONFIDENT_BUT_UNVERIFIED,False,False,,incipient_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 113,True,0.0,0.05,investigate_first,,,5002,0.6,incipient_leak-dafcb4d938,CONFIDENT,incipient_leak,113 22 12,0.926,12,True
+abrupt_leak,10,CONFIDENT_BUT_UNVERIFIED,False,True,,incipient_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.05,0.05,investigate_first,,,5000,0.6,incipient_leak-9ec88abcf7,CONFIDENT,abrupt_leak,10 11 111,0.896,10,True
+incipient_leak,11,CONFIDENT_BUT_UNVERIFIED,False,True,,incipient_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.05,0.05,investigate_first,,,5001,0.6,incipient_leak-c072c085d9,CONFIDENT,incipient_leak,11 10 111,0.986,11,True
+incipient_leak,113,CONFIDENT_BUT_UNVERIFIED,False,False,,incipient_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 113,True,0.05,0.05,investigate_first,,,5002,0.6,incipient_leak-99d9736c6d,CONFIDENT,incipient_leak,113 22 12,0.931,12,True
+,,INSUFFICIENT_EVIDENCE,False,,,incipient_leak,,10,Abrupt pipe leak / Incipient (growing) leak at pipe 10,False,0.15,0.05,investigate_first,,,5000,0.6,incipient_leak-f893186db4,AMBIGUOUS_DIAGNOSIS,abrupt_leak,10 11 111,0.79,10,True
+incipient_leak,11,CONFIDENT_BUT_UNVERIFIED,False,True,,incipient_leak,,11,Abrupt pipe leak / Incipient (growing) leak at pipe 11,False,0.15,0.05,investigate_first,,,5001,0.6,incipient_leak-9eeb61a186,CONFIDENT,incipient_leak,11 10 111,0.994,11,True
+incipient_leak,113,CONFIDENT_BUT_UNVERIFIED,False,False,,incipient_leak,,12,Abrupt pipe leak / Incipient (growing) leak at pipe 12,False,0.15,0.05,investigate_first,23,,5002,0.6,incipient_leak-eadc7d87bb,CONFIDENT,incipient_leak,113 12 22,0.932,12,True
+sensor_bias,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,11,,,0.0,0.05,none,,,5000,0.6,sensor_bias-559401e35b,CONFIDENT,sensor_bias,11 13 31,1.0,11,True
+sensor_bias,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,13,,,0.0,0.05,none,,,5001,0.6,sensor_bias-758260ec77,CONFIDENT,sensor_bias,13 11 31,0.999,13,True
+sensor_bias,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,22,,,0.0,0.05,none,,,5002,0.6,sensor_bias-0fabbb1362,CONFIDENT,sensor_bias,22 11 13,1.0,22,True
+,,INSUFFICIENT_EVIDENCE,False,,,sensor_bias,,11,,,0.05,0.05,investigate_first,,,5000,0.6,sensor_bias-5e975dd689,AMBIGUOUS_DIAGNOSIS,sensor_bias,11 22 31,0.69,11,True
+sensor_bias,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,13,,,0.05,0.05,none,,,5001,0.6,sensor_bias-3b0e7a5c71,CONFIDENT,sensor_bias,13 22 11,0.997,13,True
+sensor_bias,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,22,,,0.05,0.05,none,,,5002,0.6,sensor_bias-2b6423ac86,CONFIDENT,sensor_bias,22 11 13,0.993,22,True
+,,INSUFFICIENT_EVIDENCE,False,,,sensor_bias,,11,Faulty sensor 22 (bias / drift / noise / stuck),False,0.15,0.05,investigate_first,,,5000,0.6,sensor_bias-5a6f44e3da,AMBIGUOUS_DIAGNOSIS,sensor_bias,22 13 31,0.494,11,True
+sensor_bias,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,13,,,0.15,0.05,none,,,5001,0.6,sensor_bias-9398e6f937,CONFIDENT,sensor_bias,13 22 31,0.993,13,True
+sensor_bias,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_bias,,22,Faulty sensor 22 (bias / drift / stuck),False,0.15,0.05,none,22,,5002,0.6,sensor_bias-76093b6e43,CONFIDENT,sensor_bias,22 13 11,0.989,22,True
+sensor_drift,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,11,,,0.0,0.05,none,,,5000,0.6,sensor_drift-b8721effb7,CONFIDENT,sensor_drift,11 13 31,1.0,11,True
+sensor_drift,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,13,,,0.0,0.05,none,,,5001,0.6,sensor_drift-05e513dd87,CONFIDENT,sensor_drift,13 11 31,1.0,13,True
+sensor_drift,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,22,,,0.0,0.05,none,,,5002,0.6,sensor_drift-3f407a60dd,CONFIDENT,sensor_drift,22 11 13,1.0,22,True
+sensor_drift,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,11,,,0.05,0.05,none,,,5000,0.6,sensor_drift-28f888c18f,CONFIDENT,sensor_drift,11 22 31,0.939,11,True
+sensor_drift,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,13,,,0.05,0.05,none,,,5001,0.6,sensor_drift-6549466fea,CONFIDENT,sensor_drift,13 22 11,1.0,13,True
+sensor_drift,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,22,,,0.05,0.05,none,,,5002,0.6,sensor_drift-c65099bea2,CONFIDENT,sensor_drift,22 11 13,0.997,22,True
+sensor_drift,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,11,Faulty sensor 11 (bias / drift / noise / stuck),False,0.15,0.05,none,11,,5000,0.6,sensor_drift-fb1bf20ab8,CONFIDENT,sensor_drift,11 22 13,0.889,11,True
+sensor_drift,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,13,,,0.15,0.05,none,,,5001,0.6,sensor_drift-7b2392ccbf,CONFIDENT,sensor_drift,13 22 31,0.998,13,True
+sensor_drift,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_drift,,22,,,0.15,0.05,none,,,5002,0.6,sensor_drift-6be328207d,CONFIDENT,sensor_drift,22 13 11,0.81,22,True
+sensor_noise,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_noise,,11,Faulty sensor 11 (bias / noise / stuck),False,0.0,0.05,none,11,,5000,0.6,sensor_noise-c8bfbe387f,CONFIDENT,sensor_noise,11 22 31,0.993,11,True
+sensor_noise,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_noise,,13,Faulty sensor 13 (drift / noise / stuck),False,0.0,0.05,none,13,,5001,0.6,sensor_noise-5cbd26910f,CONFIDENT,sensor_noise,13 11 22,1.0,13,True
+sensor_noise,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_noise,,22,Faulty sensor 22 (noise / stuck),False,0.0,0.05,none,22,,5002,0.6,sensor_noise-66374409a1,CONFIDENT,sensor_noise,22 11 13,0.999,22,True
+sensor_noise,11,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_noise,,11,Faulty sensor 11 (noise / stuck),False,0.05,0.05,none,,,5000,0.6,sensor_noise-97c6d95969,CONFIDENT,sensor_noise,11 13 31,0.902,11,True
+sensor_noise,13,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_noise,,13,Faulty sensor 13 (bias / drift / noise),False,0.05,0.05,none,13,,5001,0.6,sensor_noise-b451a083c0,CONFIDENT,sensor_noise,13 31 22,0.996,13,True
+sensor_noise,22,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_noise,,22,Faulty sensor 22 (noise / stuck),False,0.05,0.05,none,,,5002,0.6,sensor_noise-ec30f7da74,CONFIDENT,sensor_noise,22 31 11,0.996,22,True
+,,INSUFFICIENT_EVIDENCE,False,,,sensor_noise,,11,Normal operation,False,0.15,0.05,investigate_first,,,5000,0.6,sensor_noise-8b2ec0e084,AMBIGUOUS_DIAGNOSIS,sensor_noise,22 13 31,0.677,11,True
+sensor_noise,13,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_noise,,13,Faulty sensor 13 (bias / drift / noise),False,0.15,0.05,none,,,5001,0.6,sensor_noise-cf6cf6d43b,CONFIDENT,sensor_noise,13 22 31,0.991,13,True
+sensor_noise,22,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_noise,,22,Faulty sensor 22 (noise / stuck),False,0.15,0.05,none,,,5002,0.6,sensor_noise-d2fecef12f,CONFIDENT,sensor_noise,22 31 13,0.954,22,True
+sensor_stuck,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,11,,,0.0,0.05,none,,,5000,0.6,sensor_stuck-30781c704e,CONFIDENT,sensor_stuck,11 13 31,1.0,11,True
+sensor_stuck,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,13,,,0.0,0.05,none,,,5001,0.6,sensor_stuck-434e6aaf3c,CONFIDENT,sensor_stuck,13 11 31,1.0,13,True
+sensor_stuck,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,22,,,0.0,0.05,none,,,5002,0.6,sensor_stuck-adb32e2730,CONFIDENT,sensor_stuck,22 11 13,0.99,22,True
+sensor_stuck,11,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,11,,,0.05,0.05,none,,,5000,0.6,sensor_stuck-6c261330c9,CONFIDENT,sensor_stuck,11 22 31,1.0,11,True
+sensor_stuck,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,13,,,0.05,0.05,none,,,5001,0.6,sensor_stuck-6cfc08fdee,CONFIDENT,sensor_stuck,13 22 11,0.999,13,True
+sensor_stuck,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,22,,,0.05,0.05,none,,,5002,0.6,sensor_stuck-bf68ea107a,CONFIDENT,sensor_stuck,22 11 13,0.992,22,True
+sensor_stuck,22,CONFIDENT_BUT_UNVERIFIED,False,,,sensor_stuck,,11,Faulty sensor 22 (bias / drift / stuck),False,0.15,0.05,none,,,5000,0.6,sensor_stuck-7094acbe1b,CONFIDENT,sensor_stuck,22 13 31,0.993,11,True
+sensor_stuck,13,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,13,,,0.15,0.05,none,,,5001,0.6,sensor_stuck-294ae5cfe2,CONFIDENT,sensor_stuck,13 22 31,0.998,13,True
+sensor_stuck,22,CONFIRMED_BY_INVESTIGATION,False,,,sensor_stuck,,22,,,0.15,0.05,none,,,5002,0.6,sensor_stuck-bdbcc18077,CONFIDENT,sensor_stuck,22 13 11,1.0,22,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.0,0.05,restore_pump,,9,5000,0.6,pump_disturbance-2c9dc94c15,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.0,0.05,restore_pump,,9,5001,0.6,pump_disturbance-10309366bf,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.0,0.05,restore_pump,,9,5002,0.6,pump_disturbance-b91ea7b0ea,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.05,0.05,restore_pump,,9,5000,0.6,pump_disturbance-687194fb6f,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.05,0.05,restore_pump,,9,5001,0.6,pump_disturbance-5b0d1fa184,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.05,0.05,restore_pump,,9,5002,0.6,pump_disturbance-fbedd8631d,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIDENT_BUT_UNVERIFIED,False,True,,pump_disturbance,,9,,,0.15,0.05,investigate_first,,,5000,0.6,pump_disturbance-7993398ec1,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.15,0.05,restore_pump,,9,5001,0.6,pump_disturbance-d996d571ce,CONFIDENT,pump_disturbance,9,1.0,9,True
+pump_disturbance,9,CONFIRMED_BY_INVESTIGATION,False,True,,pump_disturbance,,9,,,0.15,0.05,restore_pump,,9,5002,0.6,pump_disturbance-fd8bc03967,CONFIDENT,pump_disturbance,9,1.0,9,True
+valve_disturbance,10,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,10,,,0.0,0.05,investigate_first,,,5000,0.6,valve_disturbance-317ecab4aa,CONFIDENT,valve_disturbance,10 112 12,1.0,10,True
+,,INSUFFICIENT_EVIDENCE,False,,,valve_disturbance,,11,Valve disturbance (throttled pipe) at pipe 11,False,0.0,0.05,investigate_first,11,,5001,0.6,valve_disturbance-6fedf15bf7,AMBIGUOUS_DIAGNOSIS,sensor_drift,11 31 13,0.571,11,True
+valve_disturbance,12,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,12,Valve disturbance (throttled pipe) at pipe 12,False,0.0,0.05,investigate_first,12,,5002,0.6,valve_disturbance-ba3ba865cb,CONFIDENT,valve_disturbance,12 10 112,1.0,12,True
+valve_disturbance,10,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,10,,,0.05,0.05,investigate_first,,,5000,0.6,valve_disturbance-ff7060e606,CONFIDENT,valve_disturbance,10 112 12,0.999,10,True
+,,INSUFFICIENT_EVIDENCE,False,,,valve_disturbance,,11,Valve disturbance (throttled pipe) at pipe 11,False,0.05,0.05,investigate_first,11,,5001,0.6,valve_disturbance-2f5bb3394f,AMBIGUOUS_DIAGNOSIS,sensor_drift,11 31 13,0.553,11,True
+valve_disturbance,12,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,12,Valve disturbance (throttled pipe) at pipe 12,False,0.05,0.05,investigate_first,12,,5002,0.6,valve_disturbance-3194bb2a96,CONFIDENT,valve_disturbance,12 10 112,0.997,12,True
+valve_disturbance,10,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,10,,,0.15,0.05,investigate_first,,,5000,0.6,valve_disturbance-7b2694bf9d,CONFIDENT,valve_disturbance,10 112 12,0.982,10,True
+,,INSUFFICIENT_EVIDENCE,False,,,valve_disturbance,,11,Valve disturbance (throttled pipe) at pipe 11,False,0.15,0.05,investigate_first,,,5001,0.6,valve_disturbance-1857ffc8f1,AMBIGUOUS_DIAGNOSIS,sensor_drift,11 31 22,0.564,11,True
+valve_disturbance,12,CONFIDENT_BUT_UNVERIFIED,False,True,,valve_disturbance,,12,Valve disturbance (throttled pipe) at pipe 12,False,0.15,0.05,investigate_first,,,5002,0.6,valve_disturbance-bca112b336,CONFIDENT,valve_disturbance,12 10 112,0.997,12,True
+demand_anomaly,11,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,11,Abnormal demand at node 11,False,0.0,0.05,none,21,,5000,0.6,demand_anomaly-b43759e8b2,CONFIDENT,demand_anomaly,11 21 22,1.0,11,True
+demand_anomaly,12,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,12,,,0.0,0.05,none,,,5001,0.6,demand_anomaly-73159ecb71,CONFIDENT,demand_anomaly,12 11 13,0.977,12,True
+demand_anomaly,12,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,13,Abnormal demand at node 13,False,0.0,0.05,none,12,,5002,0.6,demand_anomaly-2981e6f20a,CONFIDENT,demand_anomaly,12 13 23,0.997,13,True
+demand_anomaly,22,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,11,Abnormal demand at node 22,False,0.05,0.05,none,,,5000,0.6,demand_anomaly-200c4fb98b,CONFIDENT,demand_anomaly,22 21 23,1.0,11,True
+demand_anomaly,12,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,12,,,0.05,0.05,none,,,5001,0.6,demand_anomaly-0c4288e806,CONFIDENT,demand_anomaly,12 11 13,0.968,12,True
+demand_anomaly,13,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,13,Abnormal demand at node 13,False,0.05,0.05,none,23,,5002,0.6,demand_anomaly-1584ba1f96,CONFIDENT,demand_anomaly,13 23 12,0.999,13,True
+demand_anomaly,22,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,11,Abnormal demand at node 22,False,0.15,0.05,none,,,5000,0.6,demand_anomaly-63cfde0e4c,CONFIDENT,demand_anomaly,22 21 23,0.925,11,True
+demand_anomaly,12,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,12,,,0.15,0.05,none,,,5001,0.6,demand_anomaly-a297f388ac,CONFIDENT,demand_anomaly,12 11 13,0.958,12,True
+demand_anomaly,23,CONFIDENT_BUT_UNVERIFIED,False,,,demand_anomaly,,13,Abnormal demand at node 23,False,0.15,0.05,none,,,5002,0.6,demand_anomaly-a02e586342,CONFIDENT,demand_anomaly,23 13 22,0.995,13,True

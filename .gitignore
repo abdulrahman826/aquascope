@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local Claude settings / logs
+.claude/settings.local.json
+*.log
+
+# Secrets
+.env*
+*.pem
+
+# Runtime scenario cache written by the API
+backend/data/scenarios/

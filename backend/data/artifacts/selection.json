@@ -1,0 +1,29 @@
+{
+  "selected": "random_forest",
+  "best_single": "random_forest",
+  "checks": {
+    "macro_f1_gain_ge_0.05": false,
+    "ece_not_worse_by_0.02": false,
+    "latency_below_1s": true,
+    "same_heldout_test": true
+  },
+  "evidence_15pct": {
+    "physics": {
+      "macro_f1": 0.7423127185109257,
+      "ece": 0.2919250518699834,
+      "n": 200
+    },
+    "random_forest": {
+      "macro_f1": 0.9003594972021487,
+      "ece": 0.07081198292388088,
+      "n": 200
+    },
+    "hybrid": {
+      "macro_f1": 0.9150426298469407,
+      "ece": 0.1149006797920405,
+      "n": 200
+    }
+  },
+  "p95_latency_s": 0.06394990005646832,
+  "rule": "Spec \u00a710 rule (fixed before evaluation): hybrid only if, under 15% mismatch, macro-F1 >= best single + 0.05,\n    ECE no more than 0.02 worse, latency < 1 s. Otherwise the stronger single approach (by 15% macro-F1)."
+}

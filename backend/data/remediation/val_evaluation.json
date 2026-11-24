@@ -1,0 +1,827 @@
+{
+  "n_scenarios": 450,
+  "n_errors": 0,
+  "hydraulic_fault_scenarios": {
+    "all": {
+      "engine_pipeline": {
+        "n": 180,
+        "intervention_rate": 0.19444444444444445,
+        "resolved_rate": 0.19444444444444445,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": 0.0,
+        "mean_regret_fraction": 0.8055555555555556,
+        "n_regret": 180
+      },
+      "engine_oracle_confirmation": {
+        "n": 180,
+        "intervention_rate": 1.0,
+        "resolved_rate": 1.0,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": 0.0,
+        "mean_regret_fraction": 0.0,
+        "n_regret": 180
+      },
+      "naive_top1": {
+        "n": 180,
+        "intervention_rate": 0.8,
+        "resolved_rate": 0.4222222222222222,
+        "ineffective_or_harmful_rate": 0.37777777777777777,
+        "constraint_violation_rate_when_acting": 0.09722222222222222,
+        "mean_regret_fraction": 0.5585120955303805,
+        "n_regret": 176
+      },
+      "random_feasible_mean": {
+        "n": 180,
+        "intervention_rate": 1.0,
+        "resolved_rate": 0.07999999999999999,
+        "ineffective_or_harmful_rate": 0.9200000000000003,
+        "constraint_violation_rate_when_acting": 0.04666666666666666,
+        "mean_regret_fraction": 1.0552200835776069,
+        "n_regret": 180
+      },
+      "do_nothing": {
+        "n": 180,
+        "intervention_rate": 0.0,
+        "resolved_rate": 0.0,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": null,
+        "mean_regret_fraction": 1.0,
+        "n_regret": 180
+      },
+      "oracle": {
+        "n": 180,
+        "intervention_rate": 1.0,
+        "resolved_rate": 1.0,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": 0.0,
+        "mean_regret_fraction": 0.0,
+        "n_regret": 180
+      }
+    },
+    "by_class": {
+      "abrupt_leak": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.06666666666666667,
+          "resolved_rate": 0.06666666666666667,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.9333333333333333,
+          "n_regret": 45
+        },
+        "engine_oracle_confirmation": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.35555555555555557,
+          "ineffective_or_harmful_rate": 0.6444444444444445,
+          "constraint_violation_rate_when_acting": 0.15555555555555556,
+          "mean_regret_fraction": 0.6121069338745713,
+          "n_regret": 43
+        },
+        "random_feasible_mean": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.09999999999999996,
+          "ineffective_or_harmful_rate": 0.8999999999999998,
+          "constraint_violation_rate_when_acting": 0.07777777777777778,
+          "mean_regret_fraction": 0.891299649239805,
+          "n_regret": 45
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        }
+      },
+      "incipient_leak": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "engine_oracle_confirmation": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.17777777777777778,
+          "ineffective_or_harmful_rate": 0.8222222222222222,
+          "constraint_violation_rate_when_acting": 0.15555555555555556,
+          "mean_regret_fraction": 0.7901751315521026,
+          "n_regret": 43
+        },
+        "random_feasible_mean": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.09999999999999996,
+          "ineffective_or_harmful_rate": 0.8999999999999998,
+          "constraint_violation_rate_when_acting": 0.08444444444444445,
+          "mean_regret_fraction": 0.8905100129799836,
+          "n_regret": 45
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        }
+      },
+      "pump_disturbance": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.7111111111111111,
+          "resolved_rate": 0.7111111111111111,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.28888888888888886,
+          "n_regret": 45
+        },
+        "engine_oracle_confirmation": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        },
+        "random_feasible_mean": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.019999999999999997,
+          "ineffective_or_harmful_rate": 0.9799999999999999,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.9799997531700778,
+          "n_regret": 45
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        }
+      },
+      "valve_disturbance": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "engine_oracle_confirmation": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.2,
+          "resolved_rate": 0.15555555555555556,
+          "ineffective_or_harmful_rate": 0.044444444444444446,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.8444444444444444,
+          "n_regret": 45
+        },
+        "random_feasible_mean": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.09999999999999996,
+          "ineffective_or_harmful_rate": 0.8999999999999998,
+          "constraint_violation_rate_when_acting": 0.024444444444444435,
+          "mean_regret_fraction": 1.4590709189205617,
+          "n_regret": 45
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 45
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 45
+        }
+      }
+    },
+    "by_mismatch": {
+      "0.0": {
+        "engine_pipeline": {
+          "n": 60,
+          "intervention_rate": 0.26666666666666666,
+          "resolved_rate": 0.26666666666666666,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.7333333333333333,
+          "n_regret": 60
+        },
+        "engine_oracle_confirmation": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        },
+        "naive_top1": {
+          "n": 60,
+          "intervention_rate": 0.7666666666666667,
+          "resolved_rate": 0.43333333333333335,
+          "ineffective_or_harmful_rate": 0.3333333333333333,
+          "constraint_violation_rate_when_acting": 0.06521739130434782,
+          "mean_regret_fraction": 0.5596955239889686,
+          "n_regret": 60
+        },
+        "random_feasible_mean": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.07999999999999999,
+          "ineffective_or_harmful_rate": 0.9199999999999999,
+          "constraint_violation_rate_when_acting": 0.046666666666666655,
+          "mean_regret_fraction": 1.0537560052191455,
+          "n_regret": 60
+        },
+        "do_nothing": {
+          "n": 60,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 60
+        },
+        "oracle": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        }
+      },
+      "0.05": {
+        "engine_pipeline": {
+          "n": 60,
+          "intervention_rate": 0.21666666666666667,
+          "resolved_rate": 0.21666666666666667,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.7833333333333333,
+          "n_regret": 60
+        },
+        "engine_oracle_confirmation": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        },
+        "naive_top1": {
+          "n": 60,
+          "intervention_rate": 0.8,
+          "resolved_rate": 0.45,
+          "ineffective_or_harmful_rate": 0.35,
+          "constraint_violation_rate_when_acting": 0.020833333333333332,
+          "mean_regret_fraction": 0.5419344577239376,
+          "n_regret": 60
+        },
+        "random_feasible_mean": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.07999999999999999,
+          "ineffective_or_harmful_rate": 0.9199999999999999,
+          "constraint_violation_rate_when_acting": 0.049999999999999996,
+          "mean_regret_fraction": 1.0570279954455837,
+          "n_regret": 60
+        },
+        "do_nothing": {
+          "n": 60,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 60
+        },
+        "oracle": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        }
+      },
+      "0.15": {
+        "engine_pipeline": {
+          "n": 60,
+          "intervention_rate": 0.1,
+          "resolved_rate": 0.1,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.9,
+          "n_regret": 60
+        },
+        "engine_oracle_confirmation": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        },
+        "naive_top1": {
+          "n": 60,
+          "intervention_rate": 0.8333333333333334,
+          "resolved_rate": 0.38333333333333336,
+          "ineffective_or_harmful_rate": 0.45,
+          "constraint_violation_rate_when_acting": 0.2,
+          "mean_regret_fraction": 0.5750058912602253,
+          "n_regret": 56
+        },
+        "random_feasible_mean": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 0.07999999999999999,
+          "ineffective_or_harmful_rate": 0.92,
+          "constraint_violation_rate_when_acting": 0.04333333333333333,
+          "mean_regret_fraction": 1.0548762500680917,
+          "n_regret": 60
+        },
+        "do_nothing": {
+          "n": 60,
+          "intervention_rate": 0.0,
+          "resolved_rate": 0.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": 1.0,
+          "n_regret": 60
+        },
+        "oracle": {
+          "n": 60,
+          "intervention_rate": 1.0,
+          "resolved_rate": 1.0,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": 0.0,
+          "n_regret": 60
+        }
+      }
+    }
+  },
+  "non_hydraulic_scenarios": {
+    "all": {
+      "engine_pipeline": {
+        "n": 270,
+        "intervention_rate": 0.0,
+        "resolved_rate": null,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": null,
+        "mean_regret_fraction": null,
+        "n_regret": 0
+      },
+      "naive_top1": {
+        "n": 270,
+        "intervention_rate": 0.011111111111111112,
+        "resolved_rate": null,
+        "ineffective_or_harmful_rate": 0.011111111111111112,
+        "constraint_violation_rate_when_acting": 0.0,
+        "mean_regret_fraction": null,
+        "n_regret": 0
+      },
+      "do_nothing": {
+        "n": 270,
+        "intervention_rate": 0.0,
+        "resolved_rate": null,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": null,
+        "mean_regret_fraction": null,
+        "n_regret": 0
+      },
+      "oracle": {
+        "n": 270,
+        "intervention_rate": 0.0,
+        "resolved_rate": null,
+        "ineffective_or_harmful_rate": 0.0,
+        "constraint_violation_rate_when_acting": null,
+        "mean_regret_fraction": null,
+        "n_regret": 0
+      }
+    },
+    "by_class": {
+      "demand_anomaly": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      },
+      "normal": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      },
+      "sensor_bias": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.022222222222222223,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.022222222222222223,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      },
+      "sensor_drift": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.022222222222222223,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.022222222222222223,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      },
+      "sensor_noise": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.022222222222222223,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.022222222222222223,
+          "constraint_violation_rate_when_acting": 0.0,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      },
+      "sensor_stuck": {
+        "engine_pipeline": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "naive_top1": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "do_nothing": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        },
+        "oracle": {
+          "n": 45,
+          "intervention_rate": 0.0,
+          "resolved_rate": null,
+          "ineffective_or_harmful_rate": 0.0,
+          "constraint_violation_rate_when_acting": null,
+          "mean_regret_fraction": null,
+          "n_regret": 0
+        }
+      }
+    }
+  },
+  "engine": {
+    "confirmation_status_counts": {
+      "CONFIDENT_BUT_UNVERIFIED": 181,
+      "CONFIRMED_BY_INVESTIGATION": 165,
+      "INSUFFICIENT_EVIDENCE": 104
+    },
+    "confirmation_path_counts": {
+      "verification_no_reliable_location": 134,
+      "verification_confirmed": 121,
+      "investigation_not_confirmed": 78,
+      "no_reliable_measurement": 48,
+      "investigation_confirmed": 44,
+      "verification_not_confirmed": 16,
+      "no_competing_hypothesis": 9
+    },
+    "pipeline_recommendation_counts_hydraulic_truth": {
+      "investigate_first": 134,
+      "restore_pump": 32,
+      "none": 11,
+      "isolate_pipe": 3
+    },
+    "pipeline_recommendation_counts_non_hydraulic_truth": {
+      "none": 237,
+      "investigate_first": 33
+    },
+    "investigation_confirmations": {
+      "n": 165,
+      "correct_class_family_and_location": 165
+    },
+    "oracle_confirmation_recommendation_counts_by_class": {
+      "abrupt_leak": {
+        "isolate_pipe": 45
+      },
+      "incipient_leak": {
+        "isolate_pipe": 45
+      },
+      "pump_disturbance": {
+        "restore_pump": 45
+      },
+      "valve_disturbance": {
+        "restore_valve": 45
+      }
+    },
+    "engine_pipeline_constraint_prediction_misses": 0,
+    "engine_oracle_confirmation_constraint_prediction_misses": 0,
+    "oracle_confirmation_prediction_error_by_class": {
+      "abrupt_leak": {
+        "n": 45,
+        "median_relative_error": 0.01045051739441928
+      },
+      "incipient_leak": {
+        "n": 45,
+        "median_relative_error": 0.009010054258244223
+      },
+      "pump_disturbance": {
+        "n": 45,
+        "median_relative_error": -7.101877026693613e-05
+      },
+      "valve_disturbance": {
+        "n": 45,
+        "median_relative_error": 0.04340248829936747
+      }
+    },
+    "n_labelled_candidate_rows": 662
+  },
+  "split": "val",
+  "errors": [],
+  "runtime_s": 87.7,
+  "config": {
+    "benefit_thresholds": {
+      "leak_m3": 1.0,
+      "excess_headloss_m": 0.5,
+      "pump_head_m": 0.5
+    },
+    "confirmation_min_posterior": 0.95,
+    "constraints": {
+      "all_junctions_connected_to_a_source": true,
+      "min_service_pressure_m": 20.0,
+      "min_delivered_fraction": 0.99,
+      "tank_must_not_empty": true
+    },
+    "resolved_definitions": {
+      "leak_fraction": 0.05,
+      "mechanism_m": 0.5
+    },
+    "feasible_isolations": [
+      "11",
+      "12",
+      "21",
+      "22",
+      "31",
+      "111",
+      "112",
+      "113",
+      "121",
+      "122"
+    ]
+  },
+  "disclaimer": "Simulated EPANET Net1 scenarios only; outcomes on the hidden true simulated network, not real-world validation."
+}
