@@ -24,7 +24,7 @@ Works today (full web app, FastAPI backend + Next.js dashboard):
 Limitations: everything is simulated on one small benchmark network; not yet validated on real utility data. It only acts on confirmed faults (35% of faults end to end). It is advisory only: it cannot and does not control real valves or pumps.
 
 ## GitHub link
-(paste your repo URL here once pushed)
+https://github.com/abdulrahman826/aquascope
 
 ## Tech stack
 Python, FastAPI, EPyT-Flow / EPANET, scikit-learn, NumPy, pandas, Next.js 16, React, TypeScript, Tailwind CSS, Recharts
